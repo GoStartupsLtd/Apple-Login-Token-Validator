@@ -2,9 +2,14 @@
 During a Sign up with Apple from a mobile client the backend needs to receive a token and then to verify that the token is valid. The process is not as simple therefore I am creating this package. 
 
 ## Installation 
+```bash
 npm install login-apple-token-validator
+```
+
+
 
 ## Use of framework
+```js
 var validator = require('login-apple-token-validator')
 
 const appIds = ['<Your application ID (Bundle Identificator)>']
@@ -15,6 +20,8 @@ validator.verifyToken(token, appIds).then(function(decodedJWTPayload){
 }, function(error) {
   console.log(error) // will show an error
 })
+```
+
 
 
 ## Backend implementation guidelines
