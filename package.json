@@ -1,0 +1,32 @@
+{
+  "name": "login-apple-token-validator",
+  "version": "1.0.1",
+  "description": "This NPM package helps with validation of Apple token on a server. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoStartupsLtd/Apple-Login-Token-Validator.git"
+  },
+  "keywords": [
+    "login",
+    "apple",
+    "token",
+    "validator",
+    "with",
+    "jwks",
+    "jwt"
+  ],
+  "author": "Martin Kuvandzhiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoStartupsLtd/Apple-Login-Token-Validator/issues"
+  },
+  "homepage": "https://github.com/GoStartupsLtd/Apple-Login-Token-Validator#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.0"
+  }
+}
